@@ -14,7 +14,11 @@ Affiliation:
 
 Steps:
 
-1. Install the packages using pip - the list is provided. It is advised to create a separate python environment for working with the code. 
+1. Install the packages using pip - the list is provided. It is advised to create a separate python environment for working with the code.
+    Venv steps (in VS Code):
+    a. Create environment using: Cmd + Shift + P and then Create Environment (venv)
+    b. Activate venv using: source .venv/bin/activate
+    c. Install packages using: pip install -r "requirements.txt"
 
 2. Download the LLM model from link provided: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
       For this work you can use - llama-2-7b-chat.ggmlv3.q8_0
@@ -35,3 +39,13 @@ Please cite this work as :
       archivePrefix={arXiv},
       primaryClass={cs.AI}
 }
+
+Additional notes on Python version and Package List
+1. Code runs with Python 3.11.9 with venv
+2. Omitted packages for compatibility:
+    - chromaviz==0.0.4
+    - gmsh==4.12.0.dev1
+    - ray==2.4.0
+    - urllib==31.26.16
+3. Modified packages for compatibility:
+    - grpcio==1.49.1 --> grpcio==1.56.0
