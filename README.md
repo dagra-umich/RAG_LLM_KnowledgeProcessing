@@ -15,9 +15,13 @@ Affiliation:
 Steps:
 
 1. Install the packages using pip - the list is provided. It is advised to create a separate python environment for working with the code.
+
     Venv steps (in VS Code):
+      
     a. Create environment using: Cmd + Shift + P and then Create Environment (venv)
+   
     b. Activate venv using: source .venv/bin/activate
+   
     c. Install packages using: pip install -r "requirements.txt"
 
 2. Download the LLM model from link provided: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
