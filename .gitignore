@@ -1,0 +1,6 @@
+llama-2-7b-chat.ggmlv3.q8_0.bin
+dbs_fullScale_cosine/DB_cosine_cSize_700_cOver_200/chroma.sqlite3
+dbs_fullScale_cosine/DB_cosine_cSize_700_cOver_200/9a4fcf73-d88c-4eef-a9a1-7c63dabb9a5d/data_level0.bin
+dbs_fullScale_cosine/DB_cosine_cSize_700_cOver_200/9a4fcf73-d88c-4eef-a9a1-7c63dabb9a5d/header.bin
+dbs_fullScale_cosine/DB_cosine_cSize_700_cOver_200/9a4fcf73-d88c-4eef-a9a1-7c63dabb9a5d/length.bin
+dbs_fullScale_cosine/DB_cosine_cSize_700_cOver_200/9a4fcf73-d88c-4eef-a9a1-7c63dabb9a5d/link_lists.bin
