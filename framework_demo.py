@@ -78,14 +78,14 @@ llm = LlamaCpp(
 from langchain.prompts import PromptTemplate
 
 ### This template is a demo template - change it as per your topic  
-template = """Use the following pieces of context to answer the question at the end. You are a subject matter expert in Oblique Detonation waves and their numerical analysis.
+template = """Use the following pieces of context to answer the question at the end. You are a subject matter expert on Aircraft wing design.
 Always say "thanks for asking!" at the end of the answer.
 Context: {context}
 Question: {question}
 Answer:"""
 QA_CHAIN_PROMPT = PromptTemplate(template=template, input_variables=["context" ,"question"],)
 
-question = "what is oblique detonation wave?" 
+question = "what are important considerations in designing an aircraft wing?" 
 
 extra = " Reply with minimum 500 words and provide give a detailed list of research papers for this topic. If you don't know the answer, just say that you don't know, don't try to make up an answer. If you dont know the full research paper name, do not try to make up a research article name"
 

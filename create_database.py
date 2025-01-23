@@ -40,7 +40,7 @@ embeddings_model = HuggingFaceEmbeddings(
     model_name='BAAI/bge-base-en-v1.5')
 
 #%% Phase 1 - Load documents
-path_docs = './docs_ODW/'
+path_docs = './docs_AircraftDesign/'
 
 print('\nDocuments loading from:',path_docs)
 text_loader_kwargs={'autodetect_encoding': True}
