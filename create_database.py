@@ -83,13 +83,3 @@ for i in range(len(arr_chunk_size)):
         
         print('Completed Chroma Database: ', db_name)
         del vectordb, text_splitter, data_splits
-        
-
-
-            
-
-
-
-
-
-
