@@ -85,7 +85,7 @@ Question: {question}
 Answer:"""
 QA_CHAIN_PROMPT = PromptTemplate(template=template, input_variables=["context" ,"question"],)
 
-question = "what does the lift distribution look like for a wing with a large taper ratio?" 
+question = "what are the major load paths in an aircraft?" 
 
 extra = " Reply with minimum 500 words and provide give a detailed list of research papers for this topic. If you don't know the answer, just say that you don't know, don't try to make up an answer. If you dont know the full research paper name, do not try to make up a research article name"
 
